@@ -1,0 +1,86 @@
+#menu-icon{
+    display: none;
+}
+/* Banner starts here */
+#banner-section{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+#banner-section article{
+    margin: 1rem;
+    text-align: left;
+}
+.banner-heading{
+    display: inline-block;
+    font-size: 4rem;
+    padding: 1rem;
+    padding: 1rem 8rem 1rem 2rem;
+    border-bottom-right-radius: 8rem;
+    border-top-left-radius: 3rem;
+}
+.banner-dsc{
+    font-size: 1.8rem;
+    text-align: justify;
+    padding: 0 2.5rem 1rem 2.1rem;
+}
+
+#banner-section aside{
+    text-align: center;
+}
+
+.banner-img{
+    width: 88%;
+    height: auto;
+    margin: 1rem 2rem;
+    border: .2rem solid;
+}
+/* Banner ends here */
+
+/* About me starts here */
+.card-container{
+    margin: 1rem 5rem;
+}
+/* About me ends here */
+
+/* Archives section starts here */
+.archives-img:hover{
+    transform: scale(1.06);
+}
+/* Archives section ends here */
+
+/* Contact section starts here */
+#contact-form{
+    width: 80%;
+}
+.from-control{
+    flex-direction: row;
+}
+.from-control label{
+    font-size: 2rem;
+}
+.from-control input, textarea{
+    font-size: 1.8rem;
+    width: 80%;
+}
+.contact-btn{
+    margin-left: 30%;
+}
+/* Contact section ends here */
+
+/* footer starts here */
+.copyright-text{
+    font-size: 2rem;
+    padding: 1.4rem;
+    transform: scale(1.1);
+}
+.media-buttons .btn{
+    font-size: 2rem;
+    padding: .8rem .5rem .5rem .5rem;
+    margin: .5rem 1rem;
+    width: 4rem;
+}
+/* footer ends here */

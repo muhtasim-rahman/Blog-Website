@@ -1,0 +1,135 @@
+.logo-figure{
+    margin-left: 1.5rem;
+}
+.logo-figure h1{
+    display: inline-block;
+    font-size: 4rem;
+    padding: .5px;
+    margin: 0 1rem;
+}
+
+/* Header starts here */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 2rem 1rem;
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    min-width: 5vh;
+}
+/********************************/
+.navigation-menu li{
+    display: inline-block;
+    background-color: transparent;
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+}
+/* Header ends here */
+
+/* Banner starts here */
+#banner-section{
+    flex-direction: row;
+    height: 95vh;
+    padding: 5rem 1rem;
+}
+#banner-section aside{
+    flex-basis: 50%;
+}
+
+.banner-img{
+    width: 55rem;
+    height: auto;
+}
+/* Banner ends here */
+
+/* About me starts here */
+#about-me-id{
+    height: 10rem;
+}
+#about-me{
+    height: 95vh;
+    padding: 5rem 1rem;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    position: relative;
+}
+.card:hover{
+    transform: scale(1.06);
+}
+.card-btn{
+    position: absolute;
+    bottom: 4rem;
+    width: 80%;
+}
+.card-btn:hover{
+    transform: scale(1.05);
+}
+/* About me ends here */
+
+/* Archives section starts here */
+#archives-me-id{
+    height: 10rem;
+}
+#archives{
+    height: 95vh;
+}
+.archives-container-lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.archives-container-list {
+    margin: 2rem;
+}
+.archives-img:hover{
+    transform: scale(1.1);
+}
+/* Archives section ends here */
+
+/* Contact section starts here */
+#contact-form{
+    width: 60%;
+}
+.from-control{
+    flex-direction: row;
+}
+.from-control label{
+    font-size: 2rem;
+}
+.from-control input, textarea{
+    font-size: 1.8rem;
+    width: 50%;
+}
+/* Contact section ends here */
+
+/* footer starts here */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+.copyright-text{
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+.media-buttons .btn{
+    font-size: 2rem;
+    padding: .8rem .5rem .5rem .5rem;
+    margin: 1.5rem 1rem;
+    width: 4rem;
+}
+/* footer ends here */

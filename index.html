@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turzo | The Bloger</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="Styles/mobile.css">
+    <link rel="stylesheet" href="Styles/tablet.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="Styles/desktop.css" media="screen and (min-width: 992px)">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header starts here -->
+    <header id="blog-header">
+        <figure class="logo-figure">
+            <div class="logo-and-hading">
+                <a href="#"><i class="fa-solid fa-blog"></i></a>
+                <h1>Blog999</h1>
+            </div>
+        </figure>
+        <nav aria-label="Main menu" class="navigation-menu">
+            <ul role="Manu bar">
+                <li role="none"><a href="#" class="nav-link" role="menuitem">Home</a></li>
+                <li role="none"><a href="#about-me-id" class="nav-link" role="menuitem">About</a></li>
+                <li role="none"><a href="#archives-id" class="nav-link" role="menuitem">Archives</a></li>
+                <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header Ends here -->
+
+    <!-- Main starts here -->
+    <main>
+        <!-- Banner starts here -->
+        <section id="banner-section">
+            <article>
+                <h2 class="banner-heading">Web Development</h2>
+                <p class="banner-dsc">As a Web Developer and a Blogger, Muhtasim Rahman is passionate about creating
+                    websites that are both functional and visually appealing. He is excited to create a blog website
+                    that reflects his unique personality and style. With his expertise in web development, he is sure to
+                    create a website that is both user-friendly and engaging. 💻</p>
+            </article>
+            <aside>
+                <img src="Images/Blog Aside.jpg" alt="Cover Photo" class="banner-img">
+            </aside>
+        </section>
+        <!-- Banner ends here -->
+
+        <!-- About me starts here -->
+        <div id="about-me-id"></div>
+        <section id="about-me" class="section-center">
+            <h2 class="section-heading text-white">About Me</h2>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Myself</h3>
+                        <hr> <br>
+                    </div>
+                    <div class="card-description">
+                        <p>My name is <b>Md Muhtasim Rahman Mahmud.</b> But everyone call me <b>Turzo</b> as it is my
+                            nickname. I read in <b>Class 8</b> (2023) at <b>Saidpur Govt. Science College, Saidpur
+                                Nilphamari.</b> I am <b>16 years old.</b></p>
+                    </div>
+                    <button type="submit" class="card-btn btn">See more</button>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>My Dream</h3>
+                        <hr> <br>
+                    </div>
+                    <div class="card-description">
+                        <p>From my childhood I like technical reletad things. I think I have enough Knowledge about
+                            mobile and computer according to my age. I wanted to be an <b>electrical enginiar.</b> But
+                            mow I have changed my decisation. Now I want to be a <b>Computer Enginier.</b> So I am
+                            learning programing from <b>YouTube.</b>
+                        </p>
+                    </div>
+                    <button type="submit" class="card-btn btn">See more</button>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Education</h3>
+                        <hr> <br>
+                    </div>
+                    <div class="card-description">
+                        <p>The youtuber <b>Anisul Islam</b> helped me a lot to learn it. I have gained a basic knowlwdge
+                            of <b>Java</b> from him. I also learned <b>HTML</b> from him. Now I am learning <b>CSS</b>.
+                            I have made this project(Website) with the help of <b>HTML</b> and <b>CSS.</b>
+                        </p>
+                    </div>
+                    <button type="submit" class="card-btn btn">See more</button>
+                </div>
+            </div>
+        </section>
+        <!-- About me ends here -->
+
+        <!-- Archives section starts here -->
+        <div id="archives-id"></div>
+        <section id="archives" class="section-center">
+            <h2 class="section-heading">Archives</h2>
+            <div class="archives-container">
+                <ul class="archives-container-lists">
+                    <li class="archives-container-list"><img src="Images/Image- (1).jpg" alt="Image 1"
+                            class="archives-img"></li>
+                    <li class="archives-container-list"><img src="Images/Image- (2).jpg" alt="Image 2"
+                            class="archives-img"></li>
+                    <li class="archives-container-list"><img src="Images/Image- (3).jpg" alt="Image 3"
+                            class="archives-img"></li>
+                    <li class="archives-container-list"><img src="Images/Image- (4).jpg" alt="Image 4"
+                            class="archives-img"></li>
+                </ul>
+            </div>
+        </section>
+        <!-- Archives section ends here -->
+
+        <!-- Contact section starts here -->
+        <section id="contact" class="section-center">
+            <h2 class="section-heading text-white">Contact me</h2>
+            <form action="mailto: programmer.turzo@gmail.com" id="contact-form">
+                <div class="from-control">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" autocomplete="name" placeholder="Write your name here" required>
+                </div>
+                <div class="from-control">
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email" autocomplete="email" placeholder="Write your e-mail here" required>
+                </div>
+                <div class="from-control">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" rows="7" placeholder="Write your message here"></textarea>
+                </div>
+                <div class="from-control">
+                    <button type="submit" class="contact-btn submit-btn btn">Submit</button>
+                    <button type="reset" class="contact-btn reset-btn btn">Reset</button>
+                </div>
+            </form>
+
+        </section>
+        <!-- Contact section ends here -->
+    </main>
+    <!-- Main ends here -->
+
+    <!-- footer starts here -->
+    <footer>
+        <p class="copyright-text">
+            Developed by. <span style="font-size: 2.2rem; color: red;">&copy;</span> Md. Turzo 2023.
+        </p>
+        <div class="media-buttons" aria-label="Main menu">
+            <button class="btn" onclick="window.open('https://www.facebook.com/profile.php?id=61556410479896')"><i
+                    class="fa-brands fa-facebook-f" aria-hidden="true"></i></button>
+            <button class="btn" onclick="window.open('https://www.instagram.com/mdturzo999/')"><i
+                    class="fa-brands fa-instagram"></i></button>
+            <button class="btn" onclick="window.open('https://twitter.com/MdTurzo16')"><i class="fa-brands fa-x-twitter"
+                    aria-hidden="true"></i></button>
+            <button class="btn" onclick="window.open('http://www.youtube.com/@Muhtasim_Rahman_')"><i
+                    class="fa-brands fa-youtube" aria-hidden="true"></i></button>
+            <button class="btn" onclick="window.open('https://github.com/programs-turzo')"><i
+                    class="fa-brands fa-github"></i></button>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+</body>
+
+</html>
